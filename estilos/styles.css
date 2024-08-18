@@ -34,6 +34,19 @@ body {
   height: 22px;
 }
 
+.iconodark {
+  width: 24px;
+  height: 24px;
+  color: white;
+}
+
+.iconoday {
+  width: 24px;
+  height: 24px;
+  color: rgb(22, 22, 22);
+}
+
+
 header {
   font-size: 17px !important;
   color: #fff;
@@ -276,6 +289,17 @@ section {
   font-weight: 700;
 }
 
+.mysql {
+  align-content: center;
+  background-color: #f3f2f3;
+  color: rgb(41, 62, 156);
+  border: 2px solid rgb(93, 114, 209);
+  padding: 4px 6px;
+  border-radius: 15px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
 .card-buttons {
   display: flex;
   justify-content: center;
@@ -301,6 +325,18 @@ section {
 
 .btn-success {
   background-image: linear-gradient(to right, rgb(46, 47, 56), rgb(36, 37, 46));
+}
+
+.btn-telmi-dia {
+  background: transparent;
+  border: 2px solid rgb(0, 0, 0) !important;
+  color: #000000 !important;
+}
+
+.btn-success-dia {
+  background: transparent;
+  border: 2px solid rgb(0, 0, 0) !important;
+  color: #000000 !important;
 }
 
 .btn-telmi:hover {
@@ -527,6 +563,7 @@ section {
   mask-image: linear-gradient(transparent);
   margin-left: auto; /* Alinea la imagen a la derecha */
 }
+
 
 .centered-container {
   position: absolute;
@@ -801,35 +838,247 @@ section {
   margin-left: 130px;
 }
 
+.buttondescarga-dia {
+  background: transparent;
+  border: 2px solid rgb(0, 0, 0) !important;
+  color: #000000 !important;
+}
+
 .buttondescarga:hover {
   transform: scale(1.09);
 }
 
-.icon-moon{
-  font-size: 24px;
+@media (max-width: 1024px) {
+  .aboutme {
+    flex-direction: column; /* Cambia la dirección del flex a columna */
+    align-items: center; /* Centra el contenido */
+  }
+
+  .aboutme-image img {
+    width: 400px; /* Reduce el tamaño de la imagen */
+    margin-bottom: 20px; /* Agrega espacio debajo de la imagen */
+    margin-top: 100px;
+  }
+
+  .hola{
+    font-size: 60px;
+  }
+
+  .presentacion{
+    font-size: 28px;
+  }
+
+  .experiencia{
+    font-size: 26px;
+    border-radius: 25px;
+  }
+
+  .develop{
+    font-size: 45px;
+  }
+
+  .buttons-container{
+    justify-content: center;
+    font-size: 25px;
+  }
+
+  .centered-container{
+    margin-left: -110px;
+  }
+
+  .aboutme-text {
+    text-align: center; /* Centra el texto */
+  }
+
+  .nav-item{
+    font-size: 25px;
+  }
+
+  .main-header{
+    height: 100px;
+  }
+
+  .iconodark{
+    width: 35px ;
+    height: 35px;
+  }
+
+
+  .iconoday{
+    width: 35px ;
+    height: 35px;
+  }
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-image {
+    width: 90%; /* La imagen ocupará todo el ancho disponible */
+    height: 400px;
+    justify-content: center;
+    margin-bottom: 1rem; /* Espacio debajo de la imagen */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+    object-position: top left;
+    margin-top: 10px;
+  }
+
+  .card-details {
+    width: 90%; /* Ajusta el ancho para que coincida con el de la imagen */
+    font-size: 25px;
+  }
+
+  .tech-stack{
+    padding-top: 20px;
+    margin-bottom: -75px;
+  }
+
+  .font-udemy{
+    font-size: 22px;
+  }
+
+  .graduados{
+    font-size: 26px;
+  }
+
+
+  .card-buttons {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem; /* Espacio encima de los botones */
+    display: flex;
+    margin-right: 60px;
+  }
+
+  .html {
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  
+  .css {
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  
+  .javascript {
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  
+  .wordpress {
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  
+  .react {
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  
+  .php {
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  
+  .nodejs {
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  
+  .sass {
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  
+  .mysql {
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: 700;
+  }
 }
-
-.icon-sun{
-  font-size: 24px;
-}
-
-
 
 @media (max-width: 768px) {
   .aboutme {
-    flex-direction: column !important;
-    min-height: 50vh !important; /* Elimina la altura mínima de la pantalla completa */
-    margin-top: 20px !important; /* Añade un margen superior */
-    margin-bottom: 20px !important; /* Añade un margen inferior */
+    flex-direction: column; /* Cambia la dirección del flex a columna */
+    align-items: center; /* Centra el contenido */
   }
 
-  body {
-    background-color: red !important;
+  .aboutme-image img {
+    width: 400px; /* Reduce el tamaño de la imagen */
+    margin-bottom: 20px; /* Agrega espacio debajo de la imagen */
+    margin-top: 100px;
   }
 
-  .centered-container {
-    position: static !important; /* Elimina la posición absoluta */
-    transform: none !important; /* Elimina la transformación de centrado horizontal */
-    margin-top: 20px !important; /* Añade margen superior para separarlo de la sección "aboutme" */
+  .hola{
+    font-size: 100px;
+  }
+
+  .presentacion{
+    font-size: 45px !important;
+  }
+
+  .develop{
+    font-size: 45px;
+  }
+
+  .buttons-container{
+    justify-content: center;
+    font-size: 25px;
+  }
+
+  .centered-container{
+    margin-left: -70px;
+  }
+
+  .aboutme-text {
+    text-align: center; /* Centra el texto */
+  }
+
+  .nav-item{
+    font-size: 25px;
+  }
+
+  .main-header{
+    height: 100px;
+  }
+
+  .iconodark{
+    width: 45px !important;
+    height: 45px;
+  }
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-image {
+    width: 100%; /* La imagen ocupará todo el ancho disponible */
+    margin-bottom: 1rem; /* Espacio debajo de la imagen */
+  }
+
+  .card-details {
+    width: 100%; /* Ajusta el ancho para que coincida con el de la imagen */
+  }
+
+  .card-buttons {
+    width: 100%; /* Ajusta el ancho para que coincida con el de la imagen */
+    margin-top: 1rem; /* Espacio encima de los botones */
+    display: flex;
+    justify-content: center;
   }
 }
