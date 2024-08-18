@@ -317,4 +317,25 @@ downloadButtons.forEach(function(button) {
   });
 });
 
-// Otras funcionalidades que desees agregar
+/*
+// Selecciona el div que quieres ocultar/mostrar
+const scrollDiv = document.getElementById('scrollDiv');
+
+// Variable para almacenar la posición del scroll anterior
+let lastScrollTop = 0;
+
+window.addEventListener('scroll', () => {
+    // Obtiene la posición actual del scroll
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop) {
+        // Cuando se hace scroll hacia abajo, agrega la clase 'hidden' para ocultar el div hacia abajo
+        scrollDiv.classList.add('hidden');
+    } else {
+        // Cuando se hace scroll hacia arriba, remueve la clase 'hidden' para mostrar el div
+        scrollDiv.classList.remove('hidden');
+    }
+
+    // Actualiza la posición del scroll anterior con la actual
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+});*/

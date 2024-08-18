@@ -64,20 +64,20 @@
         <img src="./imgs/unnamed.png" alt="Mi foto">
       </div>
     </section>
-    <div class="absolute centered-container">
+    <div class="absolute centered-container" id="scrollDiv">
       <a class="experiencia">Proyectos<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="flecha">
         <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75">
         </path>
       </svg></a>
     </div>
     <section class="projects" id="proyectos">
-      <h2 class="green">Proyectos</h2>
+      <h2 class="green titulos">Proyectos</h2>
       <div class="columnas">
         <div class="card transparente">
           <div class="card-content">
             <img src="ruta_a_tu_imagen1.jpg" alt="Imagen del proyecto" class="card-image">
             <div class="card-details mt-2 m-3">
-              <h4 class="pink mb-4">Aplicación tablero de tareas tipo "kanban". </h4>
+              <h4 class="pink mb-4 titulos2">Aplicación tablero de tareas tipo "kanban". </h4>
               <p class="detallesproyectos">Proyecto gestor de tareas con tablero tipo kanban. <span class="green">Proyecto completo con React, NodeJS y base de datos SQL</span> donde se guardan usuarios, tareas y opciones de personalizacion de la página.</p>
               <p class="detallesproyectos"><span class="pink">Esta aplicación no es la típica to-do-list.</span> Es un gestor de tareas completo, donde se aplican funciones de drag-and-drop y varias funcionalidades para personalizar y clasificar las tareas según la prioridad y otros aspectos. </p>
               <p class="detallesproyectos">En el futuro terminaré de desarrollar una funcionalidad tipo "tablero de corcho" donde puedas "pegar" post-its o notas personalizables y cuya forma y color, y posición en el tablero se queden también guardadas en la base de datos. </p>
@@ -103,7 +103,7 @@
           <div class="card-content">
             <img src="./imgs/buypoison.png" alt="Imagen del proyecto" class="card-image">
             <div class="card-details mt-2 m-3">
-              <h4 class="pink mb-4">Prueba técnica Landing Page</h4>
+              <h4 class="pink mb-4 titulos2">Prueba técnica Landing Page</h4>
               <p class="detallesproyectos">Landing Page que desarrollé para una prueba técnica para un puesto de desarrollador front-end. Básandome en un diseño de Figma, copié la landing page que me solicitaron.</p>
               <p class="detallesproyectos">El proyecto tenía integración con Worpress, y funciones JavaScript básicas como un "Load More" para los posts.</p>
               <div class="tech-stack mt-4">
@@ -127,7 +127,7 @@
           <div class="card-content">
             <img src="./imgs/Telmibackground.jpg" alt="Imagen del proyecto" class="card-image">
             <div class="card-details mt-2 m-3">
-              <h4 class="pink mb-4">Página Tarifas Telmi</h4>
+              <h4 class="pink mb-4 titulos2">Página Tarifas Telmi</h4>
               <p class="detallesproyectos">Página de tarifas telefónicas con carrito llevada a cabo para la empresa en la que realicé las prácticas. </p>
               <p class="detallesproyectos">En su versión original, tenía conexión con la base de datos de la empresa para que las tarifas se actualizasen automáticamente para incluir ofertas temporales etc.</p>
               <div class="tech-stack mt-4">
@@ -150,7 +150,7 @@
           <div class="card-content ">
             <img src="./imgs/appcomprobacion.png" alt="Imagen del proyecto" class="card-image">
             <div class="card-details mt-2 m-3">
-              <h4 class="pink mb-4">Script Comparación Registros</h4>
+              <h4 class="pink mb-4 titulos2">Script Comparación Registros</h4>
               <p class="detallesproyectos">Pequeño script que hice para resolver un problema durante mi estancia en la empresa de pácticas. </p>
               <p class="detallesproyectos">Había algunos registros de llamadas que aparecían en el archivo con el registro diario, pero luego no aparecían en el registro de llamadas mensual. Este sencillo script lo creé para uso interno. Comparaba el registro de un día con el registro mensual y te decía qué registros no coincidían.</p>
               <div class="tech-stack mt-4">
@@ -174,7 +174,7 @@
 
     <section class="skills" id="tecnologias">
       <div class="skills-container">
-        <h2 class="green">Tecnologías</h2>
+        <h2 class="green titulos">Tecnologías</h2>
         <div class="card-column">
           <div id="frontend" class="card">
             <h4 class="center titleskills ">Front-end</h4>
@@ -422,7 +422,7 @@
       </div>
     </section>
     <section class="columnas" id="certificados">
-      <h2 class="green mb-4">Certificados</h2>
+      <h2 class="green mb-4 titulos">Certificados</h2>
       <div class="card">
         <h4 class="graduados">Graduado en Filología Inglesa.<span class="green alinearderecha"> Universitat Autónoma de Barcelona.</span></h4>
       </div>
@@ -446,7 +446,7 @@
       </div>
     </section>
     <section class="columnas" id="sobre-mi">
-      <h2 class="green">Sobre mí</h2>
+      <h2 class="green titulos">Sobre mí</h2>
       <div class="about">
         <div class="about-content">
           <p class="sobremi">Mi nombre completo es <span class="pink">Nicolás Muñoz Arcos</span>, pero mis amigos me llaman Nico.</p>
@@ -463,9 +463,9 @@
     <hr class="white">
     <section class="footcontact" id="contacto">
       <div class="buttons-container2">
-      <h5 class="green">Contacto:</h5>
-      <a href="mailto:nicomunozarcos@gmail.com" class="button2" target="_blank" rel="noopener noreferrer">
-        <svg width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <h5 class="green titulos3">Contacto:</h5>
+      <a href="mailto:nicomunozarcos@gmail.com" class="button2 titulos3" target="_blank" rel="noopener noreferrer">
+        <svg class="mailsimbol" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
           <path stroke="none" d="M0 0h24v24H0z" fill="none">
           </path>
           <path d="M11 19h-6a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v6"></path>
