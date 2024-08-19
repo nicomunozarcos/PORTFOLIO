@@ -546,7 +546,7 @@ section {
 
 .about-content {
   width: 60%; /* Ancho del contenido de texto */
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .about {
@@ -943,8 +943,8 @@ section {
   }
 
   .tech-stack{
-    padding-top: 20px;
-    margin-bottom: -75px;
+    padding-top: 25px;
+    margin-bottom: -83px;
   }
 
   .font-udemy{
@@ -962,7 +962,7 @@ section {
     align-items: center;
     margin-top: 1rem; /* Espacio encima de los botones */
     display: flex;
-    margin-right: 60px;
+    margin-right: 70px;
   }
 
   .html {
@@ -1016,14 +1016,14 @@ section {
   }
 
   .titulos3{
-    font-size: 28px;
+    font-size: 22px;
     align-items: center;
     display: flex;
   }
 
   .mailsimbol{
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
   }
   
@@ -1037,6 +1037,19 @@ section {
     border-radius: 15px;
     font-size: 19px;
     font-weight: 700;
+  }
+
+  .sobremi {
+    font-size: 25px;
+  }
+
+  .aboutme-image2 {
+    margin-top: 100px; /* Ancho de la imagen */
+  }
+
+  .size-4{
+    width: 32px;
+    height: 32px;
   }
 }
 
