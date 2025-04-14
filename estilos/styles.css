@@ -176,7 +176,7 @@ section {
 }
 
 .card {
-  background-color: rgb(36, 37, 46) !important;
+  background-color: rgb(36, 37, 46, 0.6) !important;
   color: antiquewhite !important;
   border-radius: 15px !important;
   padding: 20px;
@@ -206,8 +206,8 @@ section {
 }
 
 .transparente{
-  background-color: transparent !important;
-  border: none !important;
+  background-color: rgb(0, 0, 0, 0.5) !important;
+  border: 1px rgb(148, 148, 148, 0.7) solid!important;
   box-shadow: none !important;
 }
 
@@ -739,14 +739,14 @@ section {
 
 
 .modo-dia-card {
-  background-color: rgb(198, 224, 211) !important;
+  background-color: rgba(217, 235, 226, 0.7) !important;
   color: #1d1b1b !important;
   border: 1px solid rgb(148, 173, 160) !important;
 }
 
 .modo-dia-transparente{
-  background-color: transparent !important;
-  border: none !important;
+  background-color: rgb(255, 255, 255, 0.6) !important;
+  border: 1px rgba(168, 168, 168, 0.8) solid !important;
   box-shadow: none !important;
 }
 
